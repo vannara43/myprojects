@@ -16,7 +16,7 @@ function Get() {
         console.log(error);
       });
   };
-  //deletethi
+  //deletethis
   useEffect(() => {
     getAllData();
   }, []);
