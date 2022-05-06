@@ -16,7 +16,7 @@ function Get() {
         console.log(error);
       });
   };
-  //updated 3:10
+
   useEffect(() => {
     getAllData();
   }, []);
