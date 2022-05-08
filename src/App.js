@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Axios from "./components/Axios";
 import RandomMath from "./components/RandomMath";
 import Gallery from "./components/Gallery";
@@ -11,7 +11,11 @@ function App() {
       <div className="container" style={{ marginTop: "20px" }}>
         <div className="nav">
           <h1 className="display-6 col col-lg-3">My Projects</h1>
-          <input type="text" className="col form-control" placeholder="Search a project"/>
+          <input
+            type="text"
+            className="col form-control"
+            placeholder="Search a project"
+          />
           <button className="btn btn-primary mx-3 my-2 d-flex align-self-end">
             <a href="/" className="text-light">
               Back to gallery
