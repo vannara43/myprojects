@@ -30,7 +30,7 @@ function ToDoForm({ addTodo }) {
       <div className="container">
         <div className="row">
           <div className="col">
-            <h4>ToDoForm</h4>
+            <h4>To-Do Form</h4>
             <form className="todo-form" onSubmit={handleSubmit}>
               <TextField
                 label="Task"
