@@ -1,6 +1,7 @@
 import React from "react";
 import PostCard from "./PostCard";
 
+
 function Gallery() {
   return (
     <div>
@@ -8,5 +9,6 @@ function Gallery() {
     </div>
   );
 }
+
 
 export default Gallery;
