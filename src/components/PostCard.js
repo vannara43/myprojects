@@ -87,7 +87,7 @@ function PostCard() {
         </div>
 
         <div
-          className="card shadow m-3 p-4 opacity-50 rounded border bg-light"
+          className="card shadow mx-3 p-3 opacity-50 rounded border bg-light"
           style={{ width: "18rem", height: "24rem" }}
         >
           <table className="col ">
