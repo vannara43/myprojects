@@ -2,13 +2,21 @@ import React, { useState, useEffect } from "react";
 import ToDoForm from "./ToDoForm";
 import ToDoList from "./ToDoList";
 import { Typography } from "@material-ui/core";
+import { useLocation } from "react-router";
 
 const LOCAL_STORAGE_KEY = "react-todo-list-todos";
 
 function ToDoMain() {
   const [todos, setTodos] = useState([]);
 
+  let location = useLocation().pathname.slice(12);
+
   useEffect(() => {
+    console.log(
+      `%c Welcome to ${location.toUpperCase()}! `,
+      `background-color:black; color:green;font-weight:bold;font-size:25px; padding: 15px;border:3px solid green;`
+    );
+
     const storageTodos = JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY));
     if (storageTodos) {
       setTodos(storageTodos);
@@ -16,6 +24,7 @@ function ToDoMain() {
   }, []);
 
   useEffect(() => {
+    console.table(todos);
     localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(todos));
   }, [todos]);
 

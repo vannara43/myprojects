@@ -118,12 +118,17 @@ function PostCard() {
           className="card shadow m-3 p-3 opacity-50 rounded border bg-light"
           style={{ width: "18rem", height: "24rem" }}
         >
-          <table className="col ">
-            <td className="card-title text-center align-middle display-1">
-              {" "}
+          <div className="col ">
+            <div className="card-title text-center align-middle display-1"></div>
+          </div>
+          <div className="col ">
+            <div className="card-title text-center align-middle display-1">
               +
-            </td>
-          </table>
+            </div>
+          </div>
+          <div className="col ">
+            <div className="card-title text-center align-middle display-1"></div>
+          </div>
         </div>
       </div>
     </div>

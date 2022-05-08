@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+import { useLocation } from "react-router";
 import { v1 as uuidv1 } from "uuid";
 
 function GetMath() {
@@ -15,6 +16,15 @@ function GetMath() {
     ]);
     console.log("Getting new data", items);
   };
+
+  let location = useLocation().pathname.slice(12);
+
+  useEffect(() => {
+    console.log(
+      `%c Welcome to ${location.toUpperCase()}! `,
+      `background-color:black; color:green;font-weight:bold;font-size:25px; padding: 15px;border:3px solid green;`
+    );
+  }, []);
 
   return (
     <div className="container">
