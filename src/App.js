@@ -2,8 +2,8 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Axios from "./components/Axios";
 import RandomMath from "./components/RandomMath";
-import Gallery from "./components/Gallery";
 import FormApp from "./components/FormApp";
+import PostCard from "./components/PostCard";
 
 function App() {
   return (
@@ -18,11 +18,11 @@ function App() {
             className="col form-control"
             placeholder="Search a project"
           />
-          <button className="btn btn-primary mx-3 my-2 d-flex align-self-end">
-            <a href="/myprojects/gallery" className="text-light">
-              Back to gallery
-            </a>
-          </button>
+          <a href="/myprojects/" className=" text-light">
+            <button className="btn btn-primary mx-3 my-2 d-flex align-self-end">
+              Projects
+            </button>
+          </a>
         </div>
         <hr />
       </div>
@@ -30,12 +30,10 @@ function App() {
       <div className="container width-100 bg-light bg-gradient p-3">
         <Router>
           <Routes>
-            <Route path="myprojects">
-              <Route path="gallery" element={<Gallery />} />
-              <Route path="axios" element={<Axios />} />
-              <Route path="math" element={<RandomMath />} />
-              <Route path="formapp" element={<FormApp />} />
-            </Route>
+            <Route path="/myprojects" element={<PostCard />} />
+            <Route path="/myprojects/axios" element={<Axios />} />
+            <Route path="/myprojects/math" element={<RandomMath />} />
+            <Route path="/myprojects/formapp" element={<FormApp />} />
           </Routes>
         </Router>
       </div>
