@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { v1 as uuidv1 } from "uuid";
 
 function GetMath() {
   const [items, setItems] = useState([]);
@@ -9,9 +10,7 @@ function GetMath() {
       {
         id: items.length,
         value: Math.floor(Math.random() * 10) + 1,
-        user:
-          "user" +
-          Math.floor(Math.random() * 10) * Math.floor(Math.random() * 10),
+        user: "user" + uuidv1(),
       },
     ]);
     console.log("Getting new data", items);
@@ -32,12 +31,11 @@ function GetMath() {
         <div className="col col-lg-2 border">
           {items.map((item) => (
             <div className="col" key={item.id}>
-              {`${item.user}: `}
               {item.value}
             </div>
           ))}
         </div>
-        <div className="col col-lg-3 border">{JSON.stringify(items)}</div>
+        <div className="col col-lg-6 border">{JSON.stringify(items)}</div>
       </div>
     </div>
   );
