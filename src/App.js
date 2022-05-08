@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Axios from "./components/Axios";
 import RandomMath from "./components/RandomMath";
 import Gallery from "./components/Gallery";
@@ -30,10 +30,11 @@ function App() {
       <div className="container width-100 bg-light bg-gradient p-3">
         <Router>
           <Routes>
-            <Route path="/myprojects" element={<Gallery />} />
-            <Route path="/axios" element={<Axios />} />
-            <Route path="/math" element={<RandomMath />} />
-            <Route path="/formapp" element={<FormApp />} />
+            <Route path="/myprojects" element={<Gallery />}>
+              <Route path="axios" element={<Axios />} />
+              <Route path="math" element={<RandomMath />} />
+              <Route path="formapp" element={<FormApp />} />
+            </Route>
           </Routes>
         </Router>
       </div>
