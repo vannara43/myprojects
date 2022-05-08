@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Axios from "./components/Axios";
 import RandomMath from "./components/RandomMath";
 import Gallery from "./components/Gallery";
@@ -10,14 +10,16 @@ function App() {
     <React.Fragment>
       <div className="container" style={{ marginTop: "20px" }}>
         <div className="nav">
-          <h1 className="display-6 col col-lg-3">My Projects</h1>
+          <h1 className="display-6 col col-lg-3" href="/">
+            My Projects
+          </h1>
           <input
             type="text"
             className="col form-control"
             placeholder="Search a project"
           />
           <button className="btn btn-primary mx-3 my-2 d-flex align-self-end">
-            <a href="/" className="text-light">
+            <a href="/myprojects" className="text-light">
               Back to gallery
             </a>
           </button>
@@ -28,7 +30,7 @@ function App() {
       <div className="container width-100 bg-light bg-gradient p-3">
         <Router>
           <Routes>
-            <Route path="/" element={<Gallery />} />
+            <Route path="/myprojects" element={<Gallery />} />
             <Route path="/axios" element={<Axios />} />
             <Route path="/math" element={<RandomMath />} />
             <Route path="/formapp" element={<FormApp />} />
