@@ -19,7 +19,7 @@ function App() {
             placeholder="Search a project"
           />
           <button className="btn btn-primary mx-3 my-2 d-flex align-self-end">
-            <a href="/myprojects" className="text-light">
+            <a href="/myprojects/gallery" className="text-light">
               Back to gallery
             </a>
           </button>
@@ -30,7 +30,8 @@ function App() {
       <div className="container width-100 bg-light bg-gradient p-3">
         <Router>
           <Routes>
-            <Route path="/myprojects" element={<Gallery />}>
+            <Route path="myprojects">
+              <Route path="gallery" element={<Gallery />} />
               <Route path="axios" element={<Axios />} />
               <Route path="math" element={<RandomMath />} />
               <Route path="formapp" element={<FormApp />} />
