@@ -6,7 +6,7 @@ function PostCard() {
     <div className="">
       <div className="row">
         <div
-          className="card shadow mx-3 p-3 rounded"
+          className="card shadow m-3 p-3 rounded"
           style={{ width: "18rem", height: "24rem" }}
         >
           <img
@@ -33,7 +33,7 @@ function PostCard() {
         </div>
 
         <div
-          className="card shadow mx-3 p-3 rounded"
+          className="card shadow m-3 p-3 rounded"
           style={{ width: "18rem", height: "24rem" }}
         >
           <img
@@ -60,7 +60,7 @@ function PostCard() {
         </div>
 
         <div
-          className="card shadow mx-3 p-3 rounded border"
+          className="card shadow m-3 p-3 rounded border"
           style={{ width: "18rem", height: "24rem" }}
         >
           <img
@@ -87,7 +87,35 @@ function PostCard() {
         </div>
 
         <div
-          className="card shadow mx-3 p-3 opacity-50 rounded border bg-light"
+          className="card shadow m-3 p-3 rounded border"
+          style={{ width: "18rem", height: "24rem" }}
+        >
+          <img
+            src="https://c0.wallpaperflare.com/preview/34/705/139/tasks-plan-target-list.jpg"
+            className="card-img-top rounded"
+            style={{ height: "10rem" }}
+            alt="..."
+          />
+          <div className="card-body">
+            <h5 className="card-title text-center lead">To Do List</h5>
+            <p className="card-text small" style={{ height: "5rem" }}>
+              You can add tasks into list. Use Local Storage to save list. Use
+              UUID to generate an Id. Use Material UI for User Interface.
+            </p>
+
+            <div className="text-end ">
+              <Link
+                to="/myprojects/todolist"
+                className="btn btn-primary rounded-pill"
+              >
+                Check it out
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        <div
+          className="card shadow m-3 p-3 opacity-50 rounded border bg-light"
           style={{ width: "18rem", height: "24rem" }}
         >
           <table className="col ">
