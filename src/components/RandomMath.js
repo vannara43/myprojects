@@ -22,14 +22,14 @@ function GetMath() {
       <div className="row">
         <div className="nav">
           <h3>Get Random Math Number</h3>
-          <button className="btn btn-primary btn-sm mx-3" onClick={getData}>
-            Get Data
-          </button>
+          <p className="btn btn-primary btn-sm mx-3" onClick={getData}>
+            Get Random Generate Data
+          </p>
         </div>
-        <hr />
+        {/* <hr /> */}
       </div>
       <div className="row">
-        <div className="col col-lg-2">
+        <div className="col col-lg-2 border">
           {items.map((item) => (
             <div className="col" key={item.id}>
               {`${item.user}: `}
@@ -37,7 +37,7 @@ function GetMath() {
             </div>
           ))}
         </div>
-        <div className="col col-lg-2">{JSON.stringify(items)}</div>
+        <div className="col col-lg-3 border">{JSON.stringify(items)}</div>
       </div>
     </div>
   );
