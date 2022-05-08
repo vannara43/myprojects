@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Axios from "./components/Axios";
 import RandomMath from "./components/RandomMath";
 import Gallery from "./components/Gallery";
