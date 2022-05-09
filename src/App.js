@@ -5,6 +5,9 @@ import RandomMath from "./components/RandomMath";
 import FormApp from "./components/FormApp";
 import PostCard from "./components/postcard/PostCard";
 import ToDoMain from "./components/todolist/ToDoMain";
+import ToDoMainV2 from "./components/todolistv2/MainTodo.js";
+import './App.css'
+
 
 function App() {
   return (
@@ -36,6 +39,7 @@ function App() {
             <Route path="/myprojects/math" element={<RandomMath />} />
             <Route path="/myprojects/formapp" element={<FormApp />} />
             <Route path="/myprojects/todolist" element={<ToDoMain />} />
+            <Route path="/myprojects/todolistv2" element={<ToDoMainV2 />} />
           </Routes>
         </Router>
       </div>

@@ -1,4 +1,6 @@
-
+body {
+  background-color: #b9b9b9;
+}
 
 .App {
   text-align: center;
@@ -15,7 +17,7 @@
   }
 }
 
-.App-background{
+.App-background {
   background-color: bisque;
 }
 
@@ -38,6 +40,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

@@ -1,7 +1,7 @@
 [
     {
         "img": "https://i.pinimg.com/736x/69/95/38/6995383b37b2d3b859ae480e698b8f1b--programming-languages-computer-science.jpg",
-        "title": "Get Axios Call",
+        "title": "Axios Call",
         "description": "Axios is the method to make HTTP call requests using the Axios library.",
         "link": "/myprojects/axios"
     },
@@ -22,5 +22,11 @@
         "title": "To Do List",
         "description": "You can add tasks into list. Use Local Storage to save list. Use UUID to generate an Id. Use Material UI for User Interface.",
         "link": "/myprojects/todolist"
+    },
+    {
+        "img": "https://cdn.lynda.com/course/363873/363873-636353897673967039-16x9.jpg",
+        "title": "To Do List - FULLSTACK",
+        "description": "Made a todolist that is integrated with SQL Database server. This is full stack development!",
+        "link": "/myprojects/todolistv2"
     }
 ]
