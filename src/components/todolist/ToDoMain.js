@@ -21,7 +21,7 @@ function ToDoMain() {
     if (storageTodos) {
       setTodos(storageTodos);
     }
-  }, []);
+  }, [location]);
 
   useEffect(() => {
     console.table(todos);

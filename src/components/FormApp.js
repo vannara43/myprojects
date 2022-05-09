@@ -10,7 +10,7 @@ function FormApp() {
       `%c Welcome to ${location.toUpperCase()}! `,
       `background-color:black; color:green;font-weight:bold;font-size:25px; padding: 15px;border:3px solid green;`
     );
-  }, []);
+  }, [location]);
 
   return (
     <div
