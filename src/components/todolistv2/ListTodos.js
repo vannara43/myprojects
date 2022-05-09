@@ -9,13 +9,13 @@ function ListTodos() {
     //delete function to delete tasks
     const deleteTodo = async (id) => {
         try {
-            const deleteTodo = await fetch(`http://localhost:5000/todos/${id}`, {
+            const response = await fetch(`http://localhost:5000/todos/${id}`, {
                 method: "DELETE"
             })
+            false && console.log(response, "no reponse");
         } catch (error) {
             console.error(error.message)
         }
-
         setTodos(todos.filter(todo => todo.data_id !== id));
         // window.location = window.location.pathname
     }
