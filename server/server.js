@@ -7,6 +7,8 @@ const pool = require("./db");
 app.use(cors());
 app.use(express.json()); //req.body
 
+const PORT = 3306;
+
 //ROUTES
 //create
 app.post("/todos", async(req, res)=>{
@@ -63,6 +65,6 @@ app.delete("/todos/:id", async(req,res)=>{
     }
 })
 
-app.listen(5000, ()=>{
-    console.log("server has started on port: 5000");
+app.listen(process.env.port || 5000, ()=>{
+    console.log(`server has started on port: ${process.env.port}`);
 })
