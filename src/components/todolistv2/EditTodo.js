@@ -11,7 +11,7 @@ function EditTodo({todo}) {
         e.preventDefault();
         try {
             const body = {description};
-            const response = await fetch(`http://localhost:5000/todos/${todo.data_id}`,{
+            const response = await fetch(`https://mysitedatabase.herokuapp.com/api/todos/${todo.data_id}`,{
                 method: "PUT",
                 headers:{"Content-Type": "application/json"},
                 body: JSON.stringify(body)

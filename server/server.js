@@ -7,11 +7,11 @@ const pool = require("./db");
 app.use(cors());
 app.use(express.json()); //req.body
 
-const PORT = 3306
+const PORT = 3306;
 
 //ROUTES
 //create
-app.post("/todos", async(req, res)=>{
+app.post("https://mysitedatabase.herokuapp.com/api/todos", async(req, res)=>{
     try {
         const {description} = req.body;
         const newData = await pool.query("INSERT INTO datatable(description) VALUES($1) RETURNING * ",[description]);
@@ -22,7 +22,7 @@ app.post("/todos", async(req, res)=>{
 })
 
 //get all
-app.get("/todos", async(req,res)=>{
+app.get("https://mysitedatabase.herokuapp.com/api/todos", async(req,res)=>{
     try {
         const allDatas = await pool.query("SELECT * FROM datatable");
         res.json(allDatas.rows);
@@ -32,7 +32,7 @@ app.get("/todos", async(req,res)=>{
 })
 
 //get id
-app.get("/todos/:id", async(req,res)=>{
+app.get("https://mysitedatabase.herokuapp.com/api/todos/:id", async(req,res)=>{
     try {
         const {id} = req.params;
         const data = await pool.query("SELECT * FROM datatable WHERE data_id = $1", [id])
@@ -43,7 +43,7 @@ app.get("/todos/:id", async(req,res)=>{
 })
 
 //update
-app.put("/todos/:id", async(req,res)=>{
+app.put("https://mysitedatabase.herokuapp.com/api/todos/:id", async(req,res)=>{
     try {
         const {id} = req.params;
         const {description} = req.body;
@@ -55,7 +55,7 @@ app.put("/todos/:id", async(req,res)=>{
 })
 
 //delete
-app.delete("/todos/:id", async(req,res)=>{
+app.delete("https://mysitedatabase.herokuapp.com/api/todos/:id", async(req,res)=>{
     try {
         const {id} = req.params;
         const deleteData = await pool.query("DELETE FROM datatable WHERE data_id = $1", [id]);
@@ -65,6 +65,6 @@ app.delete("/todos/:id", async(req,res)=>{
     }
 })
 
-app.listen(process.env.PORT || 3306, ()=>{
+app.listen(process.env.PORT || PORT, ()=>{
     console.log(`server has started on port: ${PORT}`);
 })
