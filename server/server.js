@@ -7,7 +7,7 @@ const pool = require("./db");
 app.use(cors());
 app.use(express.json()); //req.body
 
-// const port = 3306;
+// const port = 3306
 
 //ROUTES
 //create
