@@ -16,11 +16,13 @@ function EditTodo({todo}) {
                 headers:{"Content-Type": "application/json"},
                 body: JSON.stringify(body)
             })
-            console.log(response)
+            false && console.log(response)
         } catch (err) {
             console.error(err.message)
         }
         handleCloseModal();
+        window.location = window.location.pathname;
+        // window.reload();
     }
   return (
       <Fragment>
