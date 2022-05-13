@@ -13,6 +13,7 @@
     "axios": "^0.27.2",
     "bootstrap": "^5.1.3",
     "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
     "eslint": "^8.15.0",
     "express": "^4.18.1",
     "mysql": "^2.18.1",
@@ -30,7 +31,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build && node server/server",
+    "predeploy": "npm run build && node server/server.js",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
