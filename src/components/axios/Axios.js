@@ -17,8 +17,9 @@ function Get() {
 
   const getAllData = () => {
     axios
-      .get("https://jsonplaceholder.typicode.com/users")
-      .then((response) => {
+    .get("https://jsonplaceholder.typicode.com/users")
+    // .get("https://www.cleardb.com/service/1.0/api")
+    .then((response) => {
         console.log(response.data);
         setData(response.data);
       })
