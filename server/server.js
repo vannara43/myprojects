@@ -1,13 +1,13 @@
 const express = require("express");
 const app = express();
 const cors = require("cors")
-const pool = require("./db");
+const pool = require("./src/db");
+require('dotenv').config();
 
 //middleware
 app.use(cors());
 app.use(express.json()); //req.body
 
-const PORT = 3306;
 
 //ROUTES
 //create
@@ -65,6 +65,6 @@ app.delete("/todos/:id", async(req,res)=>{
     }
 })
 
-app.listen(process.env.port || 5000, ()=>{
-    console.log(`server has started on port: ${process.env.port}`);
+app.listen(process.env.PORT || 5000, ()=>{
+    console.log(`server has started on port: ${process.env.PORT}`);
 })
