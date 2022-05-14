@@ -23,10 +23,9 @@ function ListTodos() {
     //get function to retrieve tasks
      const getTodos = async () => {
          try {
-            const response = await fetch("https://api.github.com/repos/:user/:repo/contents/");
+            const response = await fetch("https://mysitedatabase.herokuapp.com/todos");
             // const response = await fetch("http://www.localhost:5000/todos");
             const jsonData = await response.json();
-            console.table(jsonData);
             setTodos(jsonData);
         } catch (error) {
              console.error(error.message);
