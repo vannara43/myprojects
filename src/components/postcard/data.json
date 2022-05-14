@@ -29,9 +29,9 @@
     },
     {
         "img": "https://cdn.lynda.com/course/363873/363873-636353897673967039-16x9.jpg",
-        "title": "To Do List - FULLSTACK",
+        "title": "To Do List",
         "description": "Made a todolist that is integrated with SQL Database server. This is full stack development!",
         "link": "/myprojects/todolistv2",
-        "status": "Partial"
+        "status": "Complete! | MERN & PERN STACK"
     }
 ]
