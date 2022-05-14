@@ -4,7 +4,7 @@
         "title": "Axios Call",
         "description": "Axios is the method to make HTTP call requests using the Axios library.",
         "link": "/myprojects/axios",
-        "status": "...Need work"
+        "status": "Partial"
     },
     {
         "img": "https://leedsunilibrary.files.wordpress.com/2020/04/math-1143869_1280.jpg",
@@ -18,7 +18,7 @@
         "title": "Form Application",
         "description": "Created a form that is able to take in values.",
         "link": "/myprojects/formapp",
-        "status": "Complete!"
+        "status": "Partial"
     },
     {
         "img": "https://c0.wallpaperflare.com/preview/34/705/139/tasks-plan-target-list.jpg",
@@ -32,6 +32,6 @@
         "title": "To Do List - FULLSTACK",
         "description": "Made a todolist that is integrated with SQL Database server. This is full stack development!",
         "link": "/myprojects/todolistv2",
-        "status": "...Need work"
+        "status": "Partial"
     }
 ]
