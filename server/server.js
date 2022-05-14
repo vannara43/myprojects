@@ -14,22 +14,34 @@ app.use(express.json()); //req.body
 app.post("/todos", async(req, res)=>{
     try {
         const {description} = req.body;
-        const newData = await pool.query("INSERT INTO datatable(description) VALUES($1) RETURNING * ",[description]);
+        const newData = await pool.query(`INSERT INTO datatable(description) VALUES($1);`,[description]);
         res.json(newData.rows[0]);
     } catch (err) {
         console.error(err.message);
     }
 })
+//---------------------------------
+app.get("/todos", async(req,res)=>{
+        pool.query(`SELECT * FROM datatable`,(err, result)=>{
+            if (err) {
+               console.error(err)
+           }
+           res.send(result)
+        });
+});
 
 //get all
-app.get("/todos", async(req,res)=>{
-    try {
-        const allDatas = await pool.query("SELECT * FROM datatable");
-        res.json(allDatas.rows);
-    } catch (err) {
-        console.error(err.message)
-    }
-})
+// app.get("/todos", async(req,res)=>{
+//     try {
+//         const allDatas = await pool.query(`SELECT * FROM datatable`);
+//         res.json(allDatas.rows);
+//         console.log(allDatas);
+//     } catch (err) {
+//         console.error(err.message)
+//     }
+// })
+//---------------------------------
+
 
 //get id
 app.get("/todos/:id", async(req,res)=>{
@@ -48,6 +60,7 @@ app.put("/todos/:id", async(req,res)=>{
         const {id} = req.params;
         const {description} = req.body;
         const updateData = await pool.query("UPDATE datatable SET description = $1 WHERE data_id = $2",[description, id]);
+        false && console.log(updateData);
         res.json("dataTable was updated");
     } catch (err) {
         console.error(err.message);
