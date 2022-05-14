@@ -9,7 +9,7 @@ function ListTodos() {
     //delete function to delete tasks
     const deleteTodo = async (id) => {
         try {
-            const response = await fetch(`https://mysitedatabase.herokuapp.com/todos/${id}`, {
+            const response = await fetch(`http://localhost:5000/todos/${id}`, {
                 method: "DELETE"
             })
             false && console.log(response, "no reponse");
@@ -23,12 +23,13 @@ function ListTodos() {
     //get function to retrieve tasks
      const getTodos = async () => {
          try {
-            const response = await fetch("https://mysitedatabase.herokuapp.com/todos");
-            const jsonData = await response.json()
-
-            setTodos(jsonData)
+            const response = await fetch("https://api.github.com/repos/:user/:repo/contents/");
+            // const response = await fetch("http://www.localhost:5000/todos");
+            const jsonData = await response.json();
+            console.table(jsonData);
+            setTodos(jsonData);
         } catch (error) {
-             console.error(error.message)
+             console.error(error.message);
          } 
      }
     
