@@ -21,7 +21,7 @@ function PostCard() {
             style={{ height: "10rem" }}
             alt={data.title}
           />
-          <span className="badge bg-info text-light position-absolute">{data.status}</span>
+          <span className="badge bg-info text-dark position-absolute">{data.status}</span>
           <div className="card-body">
             <h5 className="card-title lead text-center">{data.title}</h5>
             <p className="card-text small" style={{ height: "5rem" }}>
