@@ -20,27 +20,29 @@ app.post("/todos", async(req, res)=>{
         console.error(err.message);
     }
 })
-//---------------------------------
+
+//get all
+//-------------MySQL---------------
 app.get("/todos", async(req,res)=>{
         pool.query(`SELECT * FROM datatable`,(err, result)=>{
             if (err) {
-               console.error(err)
+               console.error(err);
            }
-           res.send(result)
+           res.send(result);
         });
 });
-
-//get all
+//---------------------------------
+//------------postgresSQL-------------
 // app.get("/todos", async(req,res)=>{
 //     try {
 //         const allDatas = await pool.query(`SELECT * FROM datatable`);
 //         res.json(allDatas.rows);
 //         console.log(allDatas);
 //     } catch (err) {
-//         console.error(err.message)
+//         console.error(err.message);
 //     }
 // })
-//---------------------------------
+//------------------------------------
 
 
 //get id
