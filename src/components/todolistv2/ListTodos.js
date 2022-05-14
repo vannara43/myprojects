@@ -9,7 +9,7 @@ function ListTodos() {
     //delete function to delete tasks
     const deleteTodo = async (id) => {
         try {
-            const response = await fetch(`http://localhost:5000/todos/${id}`, {
+            const response = await fetch(`https://mysitedatabase.herokuapp.com/todos/${id}`, {
                 method: "DELETE"
             })
             false && console.log(response, "no reponse");
