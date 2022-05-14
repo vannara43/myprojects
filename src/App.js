@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Axios from "./components/axios/Axios";
-import RandomMath from "./components/RandomMath";
-import FormApp from "./components/FormApp";
+import RandomMath from "./components/randommath/RandomMath";
+import FormApp from "./components/formapp/FormApp";
 import PostCard from "./components/postcard/PostCard";
 import ToDoMain from "./components/todolist/ToDoMain";
 import ToDoMainV2 from "./components/todolistv2/MainTodo.js";
