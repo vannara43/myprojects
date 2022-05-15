@@ -16,9 +16,10 @@ function PostCard() {
           key={index}
         >
           <img
+          height="150px"
             src={data.img}
             className="card-img-top rounded border"
-            style={{ height: "10rem" }}
+            style={{}}
             alt={data.title}
           />
           <span className="badge bg-info text-dark position-absolute">{data.status}</span>
