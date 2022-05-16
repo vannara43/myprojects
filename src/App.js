@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Axios from "./components/axios/Axios";
 import RandomMath from "./components/randommath/RandomMath";
 import FormApp from "./components/formapp/FormApp";
