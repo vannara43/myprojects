@@ -44,7 +44,7 @@ function Get() {
         {PostData? (PostData.map((post, index)=>{
           return (
             <div key={index}>
-              <p className="border border-primary border-1 rounded-pill p-2 m-2 text-center shadow">
+              <p className="border border-primary border-1 rounded-pill p-2 m-2 text-center bg-light opacity-50 shadow">
                 {"ID:" + index}{JSON.stringify(post)}
                 </p>
             </div>
@@ -61,7 +61,7 @@ function Get() {
           data.map((data) => {
             return (
               <div className="data" key={data.id}>
-                <p className="border border-primary border-1 rounded-pill p-2 m-2 text-center shadow">
+                <p className="border border-primary border-1 rounded-pill p-2 m-2 text-center bg-light opacity-50 shadow">
                   <Typography>{`Name: ${data.name}`} | {`Site: ${data.website}`}</Typography>
                   <Typography></Typography>
                 </p>

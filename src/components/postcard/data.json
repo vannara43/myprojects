@@ -35,10 +35,115 @@
         "status": "Complete! | MERN & PERN STACK"
     },
     {
-        "img": "https://cdn.lynda.com/course/363873/363873-636353897673967039-16x9.jpg",
-        "title": "Oscar Test",
-        "description": "Made a todolist that is integrated with SQL Database server. This is full stack development!",
-        "link": "/myprojects/todolistv2",
-        "status": "Complete! | MERN & PERN STACK"
+        "img": "https://i.imgur.com/CLZ1p8k.jpg",
+        "title": "Project Parallax",
+        "description": "New Project Started",
+        "link": "/myprojects/",
+        "status": "New Project - Vannara"
+    },
+    {
+        "img": "https://assets.hongkiat.com/uploads/cartoon-character-design-tutorials/22-cute-vector-penguin.jpg?newedit",
+        "title": "New Project",
+        "description": "Add a description",
+        "link": "/myprojects/",
+        "status": "New"
+    },
+    {
+        "img": "https://assets.hongkiat.com/uploads/cartoon-character-design-tutorials/22-cute-vector-penguin.jpg?newedit",
+        "title": "New Project",
+        "description": "Add a description",
+        "link": "/myprojects/",
+        "status": "New"
+    },
+    {
+        "img": "https://assets.hongkiat.com/uploads/cartoon-character-design-tutorials/22-cute-vector-penguin.jpg?newedit",
+        "title": "New Project",
+        "description": "Add a description",
+        "link": "/myprojects/",
+        "status": "New"
+    },
+    {
+        "img": "https://assets.hongkiat.com/uploads/cartoon-character-design-tutorials/22-cute-vector-penguin.jpg?newedit",
+        "title": "New Project",
+        "description": "Add a description",
+        "link": "/myprojects/",
+        "status": "New"
+    },
+    {
+        "img": "https://assets.hongkiat.com/uploads/cartoon-character-design-tutorials/22-cute-vector-penguin.jpg?newedit",
+        "title": "New Project",
+        "description": "Add a description",
+        "link": "/myprojects/",
+        "status": "New"
+    },
+    {
+        "img": "https://assets.hongkiat.com/uploads/cartoon-character-design-tutorials/22-cute-vector-penguin.jpg?newedit",
+        "title": "New Project",
+        "description": "Add a description",
+        "link": "/myprojects/",
+        "status": "New"
+    },
+    {
+        "img": "https://assets.hongkiat.com/uploads/cartoon-character-design-tutorials/22-cute-vector-penguin.jpg?newedit",
+        "title": "New Project",
+        "description": "Add a description",
+        "link": "/myprojects/",
+        "status": "New"
+    },
+    {
+        "img": "https://assets.hongkiat.com/uploads/cartoon-character-design-tutorials/22-cute-vector-penguin.jpg?newedit",
+        "title": "New Project",
+        "description": "Add a description",
+        "link": "/myprojects/",
+        "status": "New"
+    },
+    {
+        "img": "https://assets.hongkiat.com/uploads/cartoon-character-design-tutorials/22-cute-vector-penguin.jpg?newedit",
+        "title": "New Project",
+        "description": "Add a description",
+        "link": "/myprojects/",
+        "status": "New"
+    },
+    {
+        "img": "https://assets.hongkiat.com/uploads/cartoon-character-design-tutorials/22-cute-vector-penguin.jpg?newedit",
+        "title": "New Project",
+        "description": "Add a description",
+        "link": "/myprojects/",
+        "status": "New"
+    },
+    {
+        "img": "https://assets.hongkiat.com/uploads/cartoon-character-design-tutorials/22-cute-vector-penguin.jpg?newedit",
+        "title": "New Project",
+        "description": "Add a description",
+        "link": "/myprojects/",
+        "status": "New"
+    },
+    {
+        "img": "https://assets.hongkiat.com/uploads/cartoon-character-design-tutorials/22-cute-vector-penguin.jpg?newedit",
+        "title": "New Project",
+        "description": "Add a description",
+        "link": "/myprojects/",
+        "status": "New"
+    },
+    {
+        "img": "https://assets.hongkiat.com/uploads/cartoon-character-design-tutorials/22-cute-vector-penguin.jpg?newedit",
+        "title": "New Project",
+        "description": "Add a description",
+        "link": "/myprojects/",
+        "status": "New"
+    },
+    {
+        "img": "https://assets.hongkiat.com/uploads/cartoon-character-design-tutorials/22-cute-vector-penguin.jpg?newedit",
+        "title": "New Project",
+        "description": "Add a description",
+        "link": "/myprojects/",
+        "status": "New"
+    },
+    {
+        "img": "https://assets.hongkiat.com/uploads/cartoon-character-design-tutorials/22-cute-vector-penguin.jpg?newedit",
+        "title": "New Project",
+        "description": "Add a description",
+        "link": "/myprojects/",
+        "status": "New"
     }
 ]

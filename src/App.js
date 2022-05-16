@@ -6,7 +6,6 @@ import FormApp from "./components/formapp/FormApp";
 import PostCard from "./components/postcard/PostCard";
 import ToDoMain from "./components/todolist/ToDoMain";
 import ToDoMainV2 from "./components/todolistv2/MainTodo.js";
-import './App.css'
 
 
 function App() {
@@ -31,7 +30,7 @@ function App() {
         <hr />
       </div>
 
-      <div className="container width-100 bg-light bg-gradient p-3">
+      <div className="container width-100 p-3 justify-content-center">
         <Router>
           <Routes>
             <Route path="/myprojects" element={<PostCard />} />
