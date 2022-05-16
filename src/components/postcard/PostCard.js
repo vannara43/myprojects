@@ -6,39 +6,39 @@ function PostCard() {
   console.table(Data)
   return (
     <div>
-      <div className="row justify-content-center">
+      <div className="row justify-content-center text-dark">
 
-        {Data.map((data, index)=>{
+        {Data.map((data, index) => {
           return (
-          <div
-          className="card shadow m-3 p-3 rounded"
-          style={{ width: "18rem", height: "24rem" }}
-          key={index}
-        >
-          <img
-          height="150px"
-            src={data.img}
-            className="card-img-top rounded border"
-            style={{}}
-            alt={data.title}
-          />
-          <span className="badge bg-info text-dark position-absolute">{data.status}</span>
-          <div className="card-body">
-            <h5 className="card-title lead text-center">{data.title}</h5>
-            <p className="card-text small" style={{ height: "5rem" }}>
-              {data.description}
-            </p>
-            
-            <div className="text-end ">
-              <Link
-                to={data.link}
-                className="btn btn-primary rounded-pill"
-              >
-                Check it out
-              </Link>
+            <div
+              className="card shadow m-3 p-3 rounded"
+              style={{ width: "18rem", height: "24rem" }}
+              key={index}
+            >
+              <img
+                height="150px"
+                src={data.img}
+                className="card-img-top rounded border"
+                style={{}}
+                alt={data.title}
+              />
+              <span className="badge bg-info text-dark position-absolute">{data.status}</span>
+              <div className="card-body">
+                <h5 className="card-title lead text-center">{data.title}</h5>
+                <p className="card-text small" style={{ height: "5rem" }}>
+                  {data.description}
+                </p>
+
+                <div className="text-end ">
+                  <Link
+                    to={data.link}
+                    className="btn btn-primary rounded-pill"
+                  >
+                    Check it out
+                  </Link>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
           )
         })}
       </div>
