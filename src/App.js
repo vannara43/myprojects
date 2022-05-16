@@ -48,8 +48,8 @@ function App() {
             <Route path="/myprojects/formapp" element={<FormApp />} />
             <Route path="/myprojects/todolist" element={<ToDoMain />} />
             <Route path="/myprojects/todolistv2" element={<ToDoMainV2 />} />
-            <Route path="/myprojects/html" element={<Webpage />} />
             <Route path="/myprojects/parallax" element={<Parallax />} />
+            <Route path="/myprojects/html" element={<Webpage />} />
           </Routes>
         </Router>
       </div>

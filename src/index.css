@@ -1,6 +1,11 @@
+html {
+    /* height: 100%; */
+}
+
 body {
-    background-color: #546bb1;
     background-image: url("https://www.transparenttextures.com/patterns/clean-gray-paper.png");
-    background-repeat: repeat;
+    /* background: linear-gradient(to top, rgb(0, 28, 244), rgba(125, 114, 221)); */
+    background-color: rgb(36, 58, 118);
     background-size: auto;
+    background-attachment: fixed;
 }
