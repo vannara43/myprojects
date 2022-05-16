@@ -15,9 +15,11 @@ function App() {
     <React.Fragment>
       <div className="container" style={{ marginTop: "20px" }}>
         <div className="nav">
-          <h1 className="display-6 col col-lg-3" href="/">
-            My Projects
-          </h1>
+          <a href="/myprojects/" className="text-decoration-none display-6 mx-4 text-dark">
+            <span className="" >
+              My Projects
+            </span>
+          </a>
           <input
             type="text"
             className="col form-control"
@@ -31,6 +33,11 @@ function App() {
         </div>
         <hr />
       </div>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Parallax />} />
+        </Routes>
+      </Router>
 
       <div className="container width-100 p-3 justify-content-center">
         <Router>
@@ -41,8 +48,8 @@ function App() {
             <Route path="/myprojects/formapp" element={<FormApp />} />
             <Route path="/myprojects/todolist" element={<ToDoMain />} />
             <Route path="/myprojects/todolistv2" element={<ToDoMainV2 />} />
-            <Route path="/myprojects/parallax" element={<Parallax />} />
             <Route path="/myprojects/html" element={<Webpage />} />
+            <Route path="/myprojects/parallax" element={<Parallax />} />
           </Routes>
         </Router>
       </div>

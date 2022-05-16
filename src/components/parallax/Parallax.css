@@ -1,7 +1,63 @@
 body {
-    background-color: black;
-    background-image: url("https://c4.wallpaperflare.com/wallpaper/912/256/892/landscape-forest-deer-artwork-wallpaper-preview.jpg");
-    background-attachment: scroll;
+    height: 1000px;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
     background-size: 100% 100%;
-    /* background-position: ''; */
+    background-color: black;
+    color: white;
+}
+
+.ptext {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    font-size: 30px;
+    letter-spacing: 8px;
+    color: white;
+}
+
+.explore {
+    position: absolute;
+    text-align: center;
+    top: 90%;
+    width: 100%;
+    font-size: 30px;
+    letter-spacing: 8px;
+    color: white;
+}
+
+.pimg1 {
+    background-image: url("https://images.pexels.com/photos/1054218/pexels-photo-1054218.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    min-height: 100%;
+    object-fit: 100%;
+    height: 800px;
+}
+
+.pimg2 {
+    background-image: url("https://images.pexels.com/photos/378570/pexels-photo-378570.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    min-height: 400px;
+}
+
+.pimg3 {
+    background-image: url("https://images.pexels.com/photos/1366919/pexels-photo-1366919.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    min-height: 400px;
+}
+
+.pimg1,
+.pimg2,
+.pimg3 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+section {
+    text-align: center;
+    padding: 50px 80px;
+    background-color: black;
+    color: beige;
 }
