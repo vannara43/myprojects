@@ -6,7 +6,8 @@ import FormApp from "./components/formapp/FormApp";
 import PostCard from "./components/postcard/PostCard";
 import ToDoMain from "./components/todolist/ToDoMain";
 import ToDoMainV2 from "./components/todolistv2/MainTodo.js";
-import Webpage from "./components/html/htmlweb"
+import Webpage from "./components/html/HtmlWeb"
+import Parallax from "./components/parallax/ParallaxSite";
 
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
             <Route path="/myprojects/formapp" element={<FormApp />} />
             <Route path="/myprojects/todolist" element={<ToDoMain />} />
             <Route path="/myprojects/todolistv2" element={<ToDoMainV2 />} />
+            <Route path="/myprojects/parallax" element={<Parallax />} />
             <Route path="/myprojects/html" element={<Webpage />} />
           </Routes>
         </Router>
