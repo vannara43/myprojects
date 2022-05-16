@@ -6,7 +6,7 @@ function PostCard() {
   console.table(Data)
   return (
     <div>
-      <div className="row">
+      <div className="row justify-content-center">
 
         {Data.map((data, index)=>{
           return (
