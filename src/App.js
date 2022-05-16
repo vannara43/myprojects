@@ -15,7 +15,7 @@ function App() {
     <React.Fragment>
       <div className="container" style={{ marginTop: "20px" }}>
         <div className="nav">
-          <a href="/" className="text-decoration-none display-6 mx-4 text-dark">
+          <a href="/myprojects/" className="text-decoration-none display-6 mx-4 text-dark">
             <span className="" >
               My Projects
             </span>
