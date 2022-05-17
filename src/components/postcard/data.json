@@ -39,7 +39,7 @@
         "title": "Project Parallax",
         "description": "New Project Started",
         "link": "parallax",
-        "status": "New Project - Vannara"
+        "status": "Complete!"
     },
     {
         "img": "https://static7.depositphotos.com/1055089/697/v/600/depositphotos_6970081-stock-illustration-hole-in-the-webpage.jpg",
@@ -49,10 +49,10 @@
         "status": "Partial"
     },
     {
-        "img": "https://assets.hongkiat.com/uploads/cartoon-character-design-tutorials/22-cute-vector-penguin.jpg?newedit",
-        "title": "New Project",
-        "description": "Add a description",
-        "link": "/myprojects/",
-        "status": "New"
+        "img": "https://freefrontend.com/assets/img/css-cards/beatiful-thumbnail-card.png",
+        "title": "Card Hover Effect",
+        "description": "Card will expand content when mouse is hovering it. It will animate during hovering duration",
+        "link": "cardv1",
+        "status": "Complete"
     }
 ]

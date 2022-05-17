@@ -1,25 +1,10 @@
 import React, { useEffect } from 'react'
-import PostCard from '../postcard/PostCard';
-import './Parallax.css'
+import './parallax.css'
 
 
 function ParallaxSite() {
 
     let textSizeDefault = 20;
-
-
-    useEffect(() => {
-        // setInterval(() => {
-        //     if (textSizeDefault < 100) {
-        //         textSizeDefault += 10
-        //         console.log("2 seconds has passed")
-        //         return textSizeDefault
-        //     }
-        // }, 1000)
-    })
-
-
-
     return (
         <React.Fragment>
 
@@ -121,7 +106,6 @@ function ParallaxSite() {
                     modi minima sunt esse temporibus sint culpa, recusandae aliquam numquam
                     totam ratione voluptas quod exercitationem fuga. Possimus quis earum veniam
                     quasi aliquam eligendi, placeat qui corporis!</p>
-                <PostCard />
 
                 <a href="# " className='btn btn-outline-light'>Return to top</a>
             </section>
