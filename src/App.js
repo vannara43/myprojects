@@ -30,7 +30,7 @@ function App() {
 
       <section className='section shadow'>
         <h1 className='display-5 ' style={{ letterSpacing: "1px" }}>Welcome to my portfolio</h1>
-        <p>I love to create and problem solve! I'm a magical being that is sometime refered as a "full-stack developer", my primary work is front-end. My abilities are to create nothing into existence so basically I am god of the webiverse. I can pull </p>
+        <p>I love to create and problem solve! I'm a magical being that is sometime refered as a "full-stack developer", my primary work is front-end. My abilities are to create nothing into existence.</p>
         <p>Check out my projects below.</p>
       </section>
 
@@ -54,11 +54,6 @@ function App() {
         </div>
         <hr />
       </div>
-      {/* <Router>
-        <Routes>
-          <Route path="/" element={<Parallax />} />
-        </Routes>
-      </Router> */}
 
       <div className="container-lg width-100 p-3 justify-content-center text-light">
         <Router>
@@ -76,7 +71,7 @@ function App() {
         </Router>
       </div>
       <div className="text-center p-3">
-        <a href="/myprojects/#card" className='btn btn-outline-dark' style={{ boxShadow: "0px 0px 0px 0px #000" }}>Return to top</a><br />
+        <a href="/myprojects/#card" className='btn btn-outline-dark border border-dark' style={{ boxShadow: "0px 0px 2px 0px #001cff" }}>Return to top</a><br />
       </div>
     </React.Fragment>
   );
