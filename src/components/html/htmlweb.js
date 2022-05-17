@@ -12,8 +12,8 @@ function Webpage
 
       <body>
 
-        <h1 className=''>Web Page</h1>
         <div className='container border border-2 border-dark text-center bg-light'>
+          <h1 className=''>Web Page</h1>
           {/* Column List */}
           <div class="row  bg-light text-center">
             <div class="col-lg-8 border" >

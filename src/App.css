@@ -1,48 +1,89 @@
+html {
+  height: 100%
+}
+
 body {
-  background-color: #004f8c;
-  background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
-}
-
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-background {
-  background-color: bisque;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 100%;
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  background-size: 100% 100%;
+  background-color: black;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.welcome {
+  background-image: url(https://images.pexels.com/photos/3279307/pexels-photo-3279307.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: absolute;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+.ptext {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+  font-size: 30px;
+  letter-spacing: 8px;
+  color: white;
+}
 
-  to {
-    transform: rotate(360deg);
-  }
+.explore {
+  position: absolute;
+  text-align: center;
+  top: 80%;
+  width: 100%;
+  font-size: 30px;
+  letter-spacing: 8px;
+  color: white;
+}
+
+.pimg {
+  background-image: url("https://images.pexels.com/photos/1124960/pexels-photo-1124960.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  height: 800px;
+}
+
+.pimg0 {
+  background-image: url("https://images.pexels.com/photos/804108/pexels-photo-804108.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  min-height: 100%;
+  object-fit: 100%;
+  height: 400px;
+}
+
+.pimg1 {
+  background-image: url("https://images.pexels.com/photos/1054218/pexels-photo-1054218.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  min-height: 100%;
+  object-fit: 100%;
+  height: 800px;
+}
+
+.pimg2 {
+  background-image: url("https://images.pexels.com/photos/378570/pexels-photo-378570.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  min-height: 400px;
+}
+
+.pimg3 {
+  background-image: url("https://images.pexels.com/photos/1366919/pexels-photo-1366919.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  min-height: 400px;
+}
+
+.pimg,
+.pimg0,
+.pimg1,
+.pimg2,
+.pimg3 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+section {
+  text-align: center;
+  padding: 50px 80px;
+  background-color: black;
+  color: beige;
 }

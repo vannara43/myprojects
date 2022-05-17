@@ -8,6 +8,8 @@ import ToDoMain from "./components/todolist/ToDoMain";
 import ToDoMainV2 from "./components/todolistv2/MainTodo.js";
 import Webpage from "./components/html/HtmlWeb"
 import Parallax from "./components/parallax/ParallaxSite";
+import Cardv1 from "./components/cardv1/Card";
+import "./App.css"
 
 
 function App() {
@@ -26,12 +28,13 @@ function App() {
         </div>
       </div>
 
-      <section className='section'>
+      <section className='section shadow'>
         <h1 className='display-5 ' style={{ letterSpacing: "1px" }}>Welcome to my portfolio</h1>
-        <p>I am a developer who loves to create and problem solve. Check out my projects below. </p>
+        <p>I love to create and problem solve! I'm a magical being that is sometime refered as a "full-stack developer", my primary work is front-end. My abilities are to create nothing into existence so basically I am god of the webiverse. I can pull </p>
+        <p>Check out my projects below.</p>
       </section>
 
-      <div className="container" id="card" style={{ marginTop: "20px" }}>
+      <div className="container-lg" id="card" style={{ marginTop: "20px" }}>
         <div className="nav">
           <a href="/myprojects/" className="text-decoration-none display-6 mx-4 text-dark">
             <span className="" >
@@ -57,7 +60,7 @@ function App() {
         </Routes>
       </Router> */}
 
-      <div className="container width-100 p-3 justify-content-center">
+      <div className="container-lg width-100 p-3 justify-content-center text-light">
         <Router>
           <Routes>
             <Route path="/myprojects" element={<PostCard />} />
@@ -68,11 +71,12 @@ function App() {
             <Route path="/myprojects/todolistv2" element={<ToDoMainV2 />} />
             <Route path="/myprojects/parallax" element={<Parallax />} />
             <Route path="/myprojects/html" element={<Webpage />} />
+            <Route path="/myprojects/cardv1" element={<Cardv1 />} />
           </Routes>
         </Router>
       </div>
       <div className="text-center p-3">
-        <a href="/myprojects/#card" className='btn btn-outline-light' style={{}}>Return to top</a><br />
+        <a href="/myprojects/#card" className='btn btn-outline-dark' style={{ boxShadow: "0px 0px 0px 0px #000" }}>Return to top</a><br />
       </div>
     </React.Fragment>
   );

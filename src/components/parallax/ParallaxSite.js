@@ -1,24 +1,10 @@
 import React, { useEffect } from 'react'
-import './Parallax.css'
+import './parallax.css'
 
 
 function ParallaxSite() {
 
     let textSizeDefault = 20;
-
-
-    useEffect(() => {
-        // setInterval(() => {
-        //     if (textSizeDefault < 100) {
-        //         textSizeDefault += 10
-        //         console.log("2 seconds has passed")
-        //         return textSizeDefault
-        //     }
-        // }, 1000)
-    })
-
-
-
     return (
         <React.Fragment>
 

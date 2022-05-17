@@ -23,7 +23,7 @@ function ToDoForm({ addTodo }) {
     }
   }
 
-  useEffect(() => {}, [todo]);
+  useEffect(() => { }, [todo]);
 
   return (
     <React.Fragment>

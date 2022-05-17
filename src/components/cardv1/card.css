@@ -1,0 +1,77 @@
+.cv1body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cv1container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.cv1container .cv1card {
+    position: relative;
+    max-width: 300px;
+    height: 215px;
+    background: white;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.5s ease-in-out;
+}
+
+.cv1container .cv1card:hover {
+    height: 420px;
+}
+
+.cv1container .cv1card .cv1imgBx {
+    position: relative;
+    width: 260px;
+    /* height: 260px; */
+    top: -60px;
+    /* left: 20px; */
+    z-index: 1;
+    box-shadow: 0 5px 20px rgb(0, 0, 0, 0.2);
+}
+
+.cv1container .cv1card .cv1imgBx img {
+    width: 100%;
+    height: 200px;
+    border-radius: 4px;
+}
+
+.cv1container .cv1card .cv1content {
+    position: relative;
+    margin-top: -140;
+    padding: 10px 15px;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.cv1container .cv1card:hover .cv1content {
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.3s;
+}
+
+#fadeout {
+    opacity: 0;
+    transition: opacity 2s linear;
+    /* CSS transitions provide a way to control animation speed when changing CSS properties. Instead of having property changes take effect immediately, you can cause the changes in a property to take place over a period of time. */
+}
+
+#fadein {
+    opacity: 1;
+    transition: opacity 2s linear;
+    /* CSS transitions provide a way to control animation speed when changing CSS properties. Instead of having property changes take effect immediately, you can cause the changes in a property to take place over a period of time. */
+}
