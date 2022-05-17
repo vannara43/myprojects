@@ -3,9 +3,9 @@ html {
 }
 
 body {
-    background-image: url("https://www.transparenttextures.com/patterns/clean-gray-paper.png");
+    /* background-image: url("https://www.transparenttextures.com/patterns/clean-gray-paper.png"); */
     /* background: linear-gradient(to top, rgb(0, 28, 244), rgba(125, 114, 221)); */
-    background-color: rgb(36, 58, 118);
+    /* background-color: rgb(5, 31, 67); */
     background-size: auto;
     background-attachment: fixed;
 }

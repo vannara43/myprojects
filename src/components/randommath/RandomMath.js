@@ -27,7 +27,7 @@ function GetMath() {
   }, [location]);
 
   return (
-    <div className="container">
+    <div className="container" style={{ height: "550px" }}>
       <div className="row">
         <div className="nav">
           <h3>Get Random Math Number</h3>

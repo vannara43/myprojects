@@ -13,11 +13,29 @@ import Parallax from "./components/parallax/ParallaxSite";
 function App() {
   return (
     <React.Fragment>
-      <div className="container" style={{ marginTop: "20px" }}>
+      <div className='pimg'>
+        <div className='ptext'>
+          <span className="border p-2 opacity-75 bg-dark" href="/">
+            My Projects
+          </span>
+        </div>
+        <div className='explore'>
+          <a className="col opacity-100 btn text-light" href="#card">
+            Explore
+          </a>
+        </div>
+      </div>
+
+      <section className='section'>
+        <h1 className='display-5 ' style={{ letterSpacing: "1px" }}>Welcome to my portfolio</h1>
+        <p>I am a developer who loves to create and problem solve. Check out my projects below. </p>
+      </section>
+
+      <div className="container" id="card" style={{ marginTop: "20px" }}>
         <div className="nav">
           <a href="/myprojects/" className="text-decoration-none display-6 mx-4 text-dark">
             <span className="" >
-              My Projects
+
             </span>
           </a>
           <input
@@ -33,11 +51,11 @@ function App() {
         </div>
         <hr />
       </div>
-      <Router>
+      {/* <Router>
         <Routes>
           <Route path="/" element={<Parallax />} />
         </Routes>
-      </Router>
+      </Router> */}
 
       <div className="container width-100 p-3 justify-content-center">
         <Router>
@@ -52,6 +70,9 @@ function App() {
             <Route path="/myprojects/html" element={<Webpage />} />
           </Routes>
         </Router>
+      </div>
+      <div className="text-center p-3">
+        <a href="/myprojects/#card" className='btn btn-outline-light' style={{}}>Return to top</a><br />
       </div>
     </React.Fragment>
   );

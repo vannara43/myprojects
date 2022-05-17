@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react'
-import PostCard from '../postcard/PostCard';
 import './Parallax.css'
 
 
@@ -121,7 +120,6 @@ function ParallaxSite() {
                     modi minima sunt esse temporibus sint culpa, recusandae aliquam numquam
                     totam ratione voluptas quod exercitationem fuga. Possimus quis earum veniam
                     quasi aliquam eligendi, placeat qui corporis!</p>
-                <PostCard />
 
                 <a href="# " className='btn btn-outline-light'>Return to top</a>
             </section>
