@@ -30,7 +30,7 @@ function App() {
 
       <section className='section shadow'>
         <h1 className='display-5 ' style={{ letterSpacing: "1px" }}>"It's only going to get bigger"</h1>
-        <p>Welcome to my portfolio! I love to create and problem solve. I'm a magical being that is sometime refered as a "full-stack developer", my primary work is front-end. My abilities are to create nothing into existence.</p>
+        <p>Welcome to my portfolio! I love to create and problem solve. I'm a magical being that is refered as a "full-stack developer", my primary work is front-end. My abilities are to create nothing into existence.</p>
         <p>Check out my projects below.</p>
       </section>
 
@@ -94,7 +94,16 @@ function App() {
         </div>
       </section>
 
+      <Parallax />
+
+
       <Cardv1 />
+      <section className='section shadow'>
+        <h3 className='display-6' style={{ letterSpacing: "1px" }}>My links</h3>
+        <div className="row justify-content-center text-center">
+          <a>LinkedIn</a><a>Github</a><a>Email</a>
+        </div>
+      </section>
 
       <div className="text-center p-3">
         <a href="/myprojects/#card" className='btn btn-outline-dark border border-dark' style={{ boxShadow: "0px 0px 2px 0px #001cff" }}>Return to top</a><br />

@@ -10,14 +10,14 @@ function ParallaxSite() {
 
             <div className='pimg1'>
                 <div className='ptext'>
-                    <span className="border" href="/">
+                    {/* <span className="border" href="/">
                         My Projects
-                    </span>
+                    </span> */}
                 </div>
                 <div className='explore'>
-                    <a className="col bg-light opacity-75 btn btn-outline-dark" href="#card">
+                    {/* <a className="col bg-light opacity-75 btn btn-outline-dark" href="#card">
                         Explore
-                    </a>
+                    </a> */}
                 </div>
             </div>
 
@@ -84,7 +84,7 @@ function ParallaxSite() {
             </div>
 
             <section className='section opacity-75' id="card">
-                <h1 className='display-3'>Check out my projects</h1>
+                <h1 className='display-3'>My Projects Page 3</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
                     molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
                     numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
