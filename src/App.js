@@ -68,7 +68,7 @@ function App() {
         </ul>
       </div>
 
-      <div className="container-lg width-100 p-3 justify-content-center text-light">
+      <div className="container-lg p-3 justify-content-center text-light">
         <Router>
           <Routes>
             <Route path="/myprojects" element={<PostCard />} />

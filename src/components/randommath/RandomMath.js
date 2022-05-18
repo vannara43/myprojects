@@ -27,9 +27,9 @@ function GetMath() {
   }, [location]);
 
   return (
-    <div className="container" style={{ height: "550px" }}>
-      <div className="row">
-        <div className="nav">
+    <div className="container  text-center" style={{ height: "550px" }}>
+      <div className="row ">
+        <div className="nav justify-content-center ">
           <h3>Get Random Math Number</h3>
           <p className="btn btn-primary btn-sm mx-3" onClick={getData}>
             Get Random Generate Data
@@ -37,15 +37,15 @@ function GetMath() {
         </div>
         {/* <hr /> */}
       </div>
-      <div className="row">
-        <div className="col col-lg-2 border">
+      <div className="row  justify-content-center ">
+        <div className="col col-lg-2 border bg-dark ">
           {items.map((item) => (
-            <div className="col" key={item.id}>
+            <div className="col " key={item.id}>
               {item.value}
             </div>
           ))}
         </div>
-        <div className="col col-lg-6 border">{JSON.stringify(items)}</div>
+        <div className="col col-lg-6 border bg-dark">{JSON.stringify(items)}</div>
       </div>
     </div>
   );
