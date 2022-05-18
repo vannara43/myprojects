@@ -30,8 +30,8 @@ function App() {
 
       <section className='section shadow'>
         <h1 className='display-5 ' style={{ letterSpacing: "1px" }}>"It's only going to get bigger"</h1>
-        <p>Welcome to my portfolio! I love to create and problem solve. I'm a magical being that is refered as a "full-stack developer", my primary work is front-end. My abilities are to create nothing into existence.</p>
-        <p>Check out my projects below.</p>
+        <p>Welcome to my portfolio! I love to create and problem solve. I'm a magical being that is refered as a "full-stack developer", my primary work is front-end. My abilities are to create nothing into existence. I'm looking for an opportunity for a front-end position. I want to be in an environment that supports creativity and grow as a developer. I can code React, JavaScript, Bootstrap, CSS, HTML. I am also familiar with using Node and Git as it is a daily thing for me to utilize. If this is a plus, I have experience with RESTful APIs and SQL Databases. I'm a machine when it comes to coding because I enjoy it so much. I hope to be on your team!</p>
+        <p>Check out my projects below. Everything is made from scratch!</p>
       </section>
 
       <div className="container-lg" id="card" style={{ marginTop: "20px" }}>
@@ -93,15 +93,10 @@ function App() {
           </div>
         </div>
       </section>
-
-      <Parallax />
-
-
-      <Cardv1 />
       <section className='section shadow'>
         <h3 className='display-6' style={{ letterSpacing: "1px" }}>My links</h3>
         <div className="row justify-content-center text-center">
-          <a>LinkedIn</a><a>Github</a><a>Email</a>
+          <a href="# ">LinkedIn</a><a href="# ">Github</a><a href="# ">Email</a>
         </div>
       </section>
 
