@@ -9,6 +9,7 @@ import ToDoMainV2 from "./components/todolistv2/MainTodo.js";
 import Webpage from "./components/html/HtmlWeb"
 import Parallax from "./components/parallax/ParallaxSite";
 import Cardv1 from "./components/cardv1/Card";
+import Menu from "./components/menu/Menu";
 import "./App.css"
 
 
@@ -68,6 +69,7 @@ function App() {
             <Route path="/myprojects/parallax" element={<Parallax />} />
             <Route path="/myprojects/html" element={<Webpage />} />
             <Route path="/myprojects/cardv1" element={<Cardv1 />} />
+            <Route path="/myprojects/menu" element={<Menu />} />
           </Routes>
         </Router>
       </div>

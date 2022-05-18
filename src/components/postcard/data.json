@@ -54,5 +54,12 @@
         "description": "Card will expand content when mouse is hovering it. It will animate during hovering duration",
         "link": "cardv1",
         "status": "Complete"
+    },
+    {
+        "img": "https://freefrontend.com/assets/img/css-cards/beatiful-thumbnail-card.png",
+        "title": "Custom Menu",
+        "description": "Menu that is able to navigate through the webpage",
+        "link": "menu",
+        "status": "Partial"
     }
 ]
