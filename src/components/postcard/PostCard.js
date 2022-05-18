@@ -31,7 +31,7 @@ function PostCard() {
                   {data.description}
                 </p>
 
-                <div className="text-end ">
+                <div className="text-center ">
                   <Link
                     to={data.link}
                     className="btn btn-primary rounded-pill"

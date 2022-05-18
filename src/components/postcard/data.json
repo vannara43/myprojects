@@ -56,10 +56,10 @@
         "status": "Complete"
     },
     {
-        "img": "https://freefrontend.com/assets/img/css-cards/beatiful-thumbnail-card.png",
+        "img": "https://cronuts.digital/wp-content/uploads/2020/04/navbar.jpg",
         "title": "Custom Menu",
         "description": "Menu that is able to navigate through the webpage",
         "link": "menu",
-        "status": "Partial"
+        "status": "Complete"
     }
 ]
