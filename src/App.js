@@ -31,7 +31,7 @@ function App() {
 
       <section className='section shadow'>
         <h1 className='display-5 ' style={{ letterSpacing: "1px" }} id='about'>"It's only going to get bigger"</h1>
-        <p className="container col-lg-10 small">Welcome to my portfolio! I love to create and problem solve. I'm a magical being that is refered as a "full-stack developer", my primary work is front-end. My abilities are to create nothing into existence. I'm looking for an opportunity for a front-end position. I want to be in an environment that supports creativity and grow as a developer. I can code React, JavaScript, Bootstrap, CSS, HTML. I am also familiar with using Node and Git as it is a daily thing for me to utilize. If this is a plus, I have experience with RESTful APIs and SQL Databases. I'm a machine when it comes to coding because I enjoy it so much. I hope to be on your team!</p>
+        <p className="container col-lg-10 small">Welcome to my portfolio! My name is Vannara Thong, I love to create and problem solve! I'm a magical being that is refered as a "full-stack developer", my primary work is front-end. My abilities are to create nothing into existence. I'm looking for an opportunity for a front-end position. I want to be in an environment that supports creativity and grow as a developer. I can code React, JavaScript, Bootstrap, CSS, HTML. I am also familiar with using Node and Git as it is a daily thing for me to utilize. If this is a plus, I have experience with RESTful APIs and SQL Databases. I'm a machine when it comes to coding and for any companies that sees my site, I hope to be on your team!</p>
         <p>Check out my projects below. Everything is made from scratch!<p>Here is a recipe for baked potatoes: Baked Potato, sour cream, cheese, bacon bits,and green onion.</p></p>
       </section>
 
@@ -131,6 +131,12 @@ function App() {
               height="100px"
               width="100px"
               src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/71-github-256.png" />
+          </a>
+          <a href="# " className="m-3">
+            <img alt=""
+              height="100px"
+              width="100px"
+              src="https://cdn4.iconfinder.com/data/icons/internet-security-flat-2/32/Internet_Security_Browser_webpage_website_web_page-256.png" />
           </a>
 
         </div><p className="text-center">Call: 951-290-7279</p>
