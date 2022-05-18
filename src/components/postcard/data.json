@@ -16,7 +16,7 @@
     {
         "img": "https://blog.sheetgo.com/wp-content/uploads/2021/09/google-forms-blog-images-01.png",
         "title": "Form Application",
-        "description": "Created a form that is able to take in values.",
+        "description": "Created a form is created with bootstrap. Nothing special yet.",
         "link": "formapp",
         "status": "Partial"
     },
@@ -37,7 +37,7 @@
     {
         "img": "https://i.imgur.com/CLZ1p8k.jpg",
         "title": "Project Parallax",
-        "description": "New Project Started",
+        "description": "This is made using HTML and CSS. Parallax is a fun website style.",
         "link": "parallax",
         "status": "Complete!"
     },
@@ -54,5 +54,12 @@
         "description": "Card will expand content when mouse is hovering it. It will animate during hovering duration",
         "link": "cardv1",
         "status": "Complete"
+    },
+    {
+        "img": "https://freefrontend.com/assets/img/css-cards/beatiful-thumbnail-card.png",
+        "title": "Custom Menu",
+        "description": "Menu that is able to navigate through the webpage",
+        "link": "menu",
+        "status": "Partial"
     }
 ]
