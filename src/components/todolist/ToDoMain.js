@@ -51,7 +51,7 @@ function ToDoMain() {
   }
 
   return (
-    <div className="container bg-light opacity-75 text-dark rounded">
+    <div className="container bg-light text-dark rounded">
       <Typography variant="h2">Main Display</Typography>
       <hr />
       <ToDoForm addTodo={addTodo} />

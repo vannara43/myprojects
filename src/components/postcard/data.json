@@ -21,45 +21,45 @@
         "status": "Partial"
     },
     {
-        "img": "https://c0.wallpaperflare.com/preview/34/705/139/tasks-plan-target-list.jpg",
+        "img": "https://cdn.dribbble.com/users/303363/screenshots/2060437/final.gif",
         "title": "To Do List",
         "description": "You can add tasks into list. Use Local Storage to save list. Use UUID to generate an Id. Use Material UI for User Interface.",
         "link": "todolist",
         "status": "Complete!"
     },
     {
-        "img": "https://cdn.lynda.com/course/363873/363873-636353897673967039-16x9.jpg",
+        "img": "https://cdn.dribbble.com/users/467044/screenshots/3336590/drag_drop.gif",
         "title": "To Do List v2",
         "description": "Made a todolist that is integrated with SQL Database server. This is full stack development!",
         "link": "todolistv2",
         "status": "Complete! | MERN & PERN STACK"
     },
     {
-        "img": "https://i.imgur.com/CLZ1p8k.jpg",
+        "img": "https://i.pinimg.com/originals/7b/75/dd/7b75dda9fc31b009e65fb6eeb2b0e832.gif",
         "title": "Project Parallax",
         "description": "This is made using HTML and CSS. Parallax is a fun website style.",
         "link": "parallax",
         "status": "Complete!"
     },
     {
-        "img": "https://static7.depositphotos.com/1055089/697/v/600/depositphotos_6970081-stock-illustration-hole-in-the-webpage.jpg",
+        "img": "https://i.pinimg.com/originals/67/0b/c0/670bc0f15088200dc7bd31ff37daa245.gif",
         "title": "HTML",
         "description": "This site is built using HTML",
         "link": "html",
         "status": "Partial"
     },
     {
-        "img": "https://freefrontend.com/assets/img/css-cards/beatiful-thumbnail-card.png",
+        "img": "https://cdn.dribbble.com/users/108183/screenshots/4129974/menu_interaction_by_volorf.gif",
         "title": "Card Hover Effect",
         "description": "Card will expand content when mouse is hovering it. It will animate during hovering duration",
         "link": "cardv1",
         "status": "Complete"
     },
     {
-        "img": "https://freefrontend.com/assets/img/css-cards/beatiful-thumbnail-card.png",
+        "img": "https://cdn.dribbble.com/users/1601692/screenshots/5343559/tab-bar-1.gif",
         "title": "Custom Menu",
         "description": "Menu that is able to navigate through the webpage",
         "link": "menu",
-        "status": "Partial"
+        "status": "Complete"
     }
 ]
