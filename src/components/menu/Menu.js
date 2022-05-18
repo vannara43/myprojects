@@ -7,6 +7,18 @@ function Menu() {
                 <li>
                     <a href="# " data-text="Home">Home</a>
                 </li>
+                <li>
+                    <a href="# " data-text="Home">Home</a>
+                </li>
+                <li>
+                    <a href="# " data-text="Home">Home</a>
+                </li>
+                <li>
+                    <a href="# " data-text="Home">Home</a>
+                </li>
+                <li>
+                    <a href="# " data-text="Home">Home</a>
+                </li>
             </ul>
         </React.Fragment>
     )
