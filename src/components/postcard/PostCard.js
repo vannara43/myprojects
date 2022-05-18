@@ -12,7 +12,7 @@ function PostCard() {
           return (
             <div
               className="card shadow m-3 p-3 rounded"
-              style={{ width: "18rem", height: "24rem" }}
+              style={{ width: "18rem", height: "24rem", transition: "0.5s ease-in-out" }}
               key={index}
             >
               <img
