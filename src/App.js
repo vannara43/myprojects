@@ -140,7 +140,7 @@ function App() {
           </a>
 
         </div><p className="text-center">Call: 951-290-7279</p>
-        <p>Monday - Friday<br />9am-10am & 3pm-4pm</p>
+        <p>Monday - Friday<br />9am-10am & 3pm-4pm </p>
 
       </section>
 
