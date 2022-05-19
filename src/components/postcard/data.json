@@ -14,13 +14,6 @@
         "status": "Complete!"
     },
     {
-        "img": "https://blog.sheetgo.com/wp-content/uploads/2021/09/google-forms-blog-images-01.png",
-        "title": "Form Application",
-        "description": "Created a form is created with bootstrap. Nothing special yet.",
-        "link": "formapp",
-        "status": "Partial"
-    },
-    {
         "img": "https://cdn.dribbble.com/users/303363/screenshots/2060437/final.gif",
         "title": "To Do List",
         "description": "You can add tasks into list. Use Local Storage to save list. Use UUID to generate an Id. Use Material UI for User Interface.",
@@ -42,13 +35,6 @@
         "status": "Complete!"
     },
     {
-        "img": "https://i.pinimg.com/originals/67/0b/c0/670bc0f15088200dc7bd31ff37daa245.gif",
-        "title": "HTML",
-        "description": "This site is built using HTML",
-        "link": "html",
-        "status": "Partial"
-    },
-    {
         "img": "https://cdn.dribbble.com/users/108183/screenshots/4129974/menu_interaction_by_volorf.gif",
         "title": "Card Hover Effect",
         "description": "Card will expand content when mouse is hovering it. It will animate during hovering duration",
@@ -61,5 +47,19 @@
         "description": "Menu that is able to navigate through the webpage",
         "link": "menu",
         "status": "Complete"
+    },
+    {
+        "img": "https://i.pinimg.com/originals/67/0b/c0/670bc0f15088200dc7bd31ff37daa245.gif",
+        "title": "HTML",
+        "description": "This site is built using HTML",
+        "link": "html",
+        "status": "Partial"
+    },
+    {
+        "img": "https://blog.sheetgo.com/wp-content/uploads/2021/09/google-forms-blog-images-01.png",
+        "title": "Form Application",
+        "description": "Created a form is created with bootstrap. Nothing special yet.",
+        "link": "formapp",
+        "status": "Partial"
     }
 ]
