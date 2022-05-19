@@ -31,17 +31,17 @@ function App() {
 
       <section className='section shadow'>
         <h1 className='display-5 ' style={{ letterSpacing: "1px" }} id='about'>"It's only going to get bigger"</h1>
-        <p className="container col-lg-10 small">Welcome to my portfolio! My name is Vannara Thong, I love to create and problem solve! I'm a magical being that is refered as a "full-stack developer", my primary work is front-end. My abilities are to create nothing into existence. I'm looking for an opportunity for a front-end position. I want to be in an environment that supports creativity and grow as a developer. I can code React, JavaScript, Bootstrap, CSS, HTML. I am also familiar with using Node and Git as it is a daily thing for me to utilize. If this is a plus, I have experience with RESTful APIs and SQL Databases. I'm a machine when it comes to coding and for any companies that sees my site, I hope to be on your team!</p>
-        <p>Check out my projects below. Everything is made from scratch!<p>Here is a recipe for baked potatoes: Baked Potato, sour cream, cheese, bacon bits,and green onion.</p></p>
+        <p className="container col-lg-10 small">Welcome to my portfolio! My name is Vannara Thong, I love to create and problem solve! I'm a magical being that is refered as a "full-stack developer", my primary work is front-end. My abilities are to create nothing into existence. I'm currently looking for an opportunity for a front-end position. I want to be in an environment that supports creativity and grow as a developer. I can code React, JavaScript, Bootstrap, CSS, HTML. I am also familiar with using Node and Git as it is a daily thing for me to utilize. If this is a plus, I have experience with RESTful APIs and SQL Databases. I'm a machine when it comes to coding and for any companies that sees my site, I hope to be on your team!</p>
+        <p>Check out my projects below. Everything is coded from scratch!</p>
       </section>
 
       <div className="container" id="card" style={{ marginTop: "20px", alignItems: 'center', left: '50%' }}>
         <div className="nav text-center justify-content-center">
-          <input
+          {/* <input
             type="text"
             className="col-lg-6"
             placeholder="Search a project"
-          />
+          /> */}
           <a href="/myprojects/" className="text-light">
             <button className="btn-lg btn-primary mx-3">
               Projects
@@ -140,6 +140,7 @@ function App() {
           </a>
 
         </div><p className="text-center">Call: 951-290-7279</p>
+        <p>Monday - Friday<br />9am-10am & 3pm-4pm</p>
 
       </section>
 
