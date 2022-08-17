@@ -4,6 +4,7 @@ import PostData from './data.json'
 import { useLocation } from "react-router";
 import Typography from "@material-ui/core/Typography";
 
+//axios 
 function Get() {
   const [data, setData] = useState("");
   const location = useLocation().pathname.slice(12);
