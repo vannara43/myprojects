@@ -108,7 +108,7 @@ function App() {
                 <li>Built a responsive application using React.js</li>
                 <li>Conducted code reviews and merged pull requests using Git and GitHub. Provided</li>
                 constructive and meaningful feedback, focused on strengthening both individual and
-                AGILE development team product knowledge.
+                AGILE development team product knowledge. add
               </ul>
             </p>
           </div>
