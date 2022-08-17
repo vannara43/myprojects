@@ -1,0 +1,65 @@
+[
+    {
+        "img": "https://i.pinimg.com/736x/69/95/38/6995383b37b2d3b859ae480e698b8f1b--programming-languages-computer-science.jpg",
+        "title": "Axios Call",
+        "description": "Axios is the method to make HTTP call requests using the Axios library.",
+        "link": "axios",
+        "status": "Partial"
+    },
+    {
+        "img": "https://leedsunilibrary.files.wordpress.com/2020/04/math-1143869_1280.jpg",
+        "title": "Number Generator",
+        "description": "Generate random number with just a click of a button. Utilize map and list to display text.",
+        "link": "math",
+        "status": "Complete!"
+    },
+    {
+        "img": "https://cdn.dribbble.com/users/303363/screenshots/2060437/final.gif",
+        "title": "To Do List",
+        "description": "You can add tasks into list. Use Local Storage to save list. Use UUID to generate an Id. Use Material UI for User Interface.",
+        "link": "todolist",
+        "status": "Complete!"
+    },
+    {
+        "img": "https://cdn.dribbble.com/users/467044/screenshots/3336590/drag_drop.gif",
+        "title": "To Do List v2",
+        "description": "Made a todolist that is integrated with SQL Database server. This is full stack development!",
+        "link": "todolistv2",
+        "status": "Complete! | MERN & PERN STACK"
+    },
+    {
+        "img": "https://i.pinimg.com/originals/7b/75/dd/7b75dda9fc31b009e65fb6eeb2b0e832.gif",
+        "title": "Project Parallax",
+        "description": "This is made using HTML and CSS. Parallax is a fun website style.",
+        "link": "parallax",
+        "status": "Complete!"
+    },
+    {
+        "img": "https://cdn.dribbble.com/users/108183/screenshots/4129974/menu_interaction_by_volorf.gif",
+        "title": "Card Hover Effect",
+        "description": "Card will expand content when mouse is hovering it. It will animate during hovering duration",
+        "link": "cardv1",
+        "status": "Complete"
+    },
+    {
+        "img": "https://cdn.dribbble.com/users/1601692/screenshots/5343559/tab-bar-1.gif",
+        "title": "Custom Menu",
+        "description": "Menu that is able to navigate through the webpage",
+        "link": "menu",
+        "status": "Complete"
+    },
+    {
+        "img": "https://i.pinimg.com/originals/67/0b/c0/670bc0f15088200dc7bd31ff37daa245.gif",
+        "title": "HTML",
+        "description": "This site is built using HTML",
+        "link": "html",
+        "status": "Partial"
+    },
+    {
+        "img": "https://blog.sheetgo.com/wp-content/uploads/2021/09/google-forms-blog-images-01.png",
+        "title": "Form Application",
+        "description": "Created a form is created with bootstrap. Nothing special yet.",
+        "link": "formapp",
+        "status": "Partial"
+    }
+]
