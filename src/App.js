@@ -19,7 +19,7 @@ function App() {
       <div className='pimg'>
         <div className='ptext'>
           <span className="border p-2 opacity-75 bg-dark" href="/">
-            My Projects returned
+            My Projects
           </span>
         </div>
         <div className='explore'>
@@ -44,7 +44,7 @@ function App() {
           /> */}
           <a href="/myprojects/" className="text-light">
             <button className="btn-lg btn-primary mx-3">
-              Projects
+              Projects Returning
             </button>
           </a>
         </div>
