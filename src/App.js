@@ -19,7 +19,7 @@ function App() {
       <div className='pimg'>
         <div className='ptext'>
           <span className="border p-2 opacity-75 bg-dark" href="/">
-            My Projects
+            My Projects returned
           </span>
         </div>
         <div className='explore'>
