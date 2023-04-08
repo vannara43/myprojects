@@ -44,7 +44,7 @@ function App() {
           /> */}
           <a href="/myprojects/" className="text-light">
             <button className="btn-lg btn-primary mx-3">
-              Projects Returning
+              Projects Returning 2.0
             </button>
           </a>
         </div>
