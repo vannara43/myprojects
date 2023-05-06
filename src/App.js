@@ -24,7 +24,7 @@ function App() {
         </div>
         <div className='explore'>
           <a className="col opacity-100 btn text-light" href="#card">
-            Explore
+            Explore Updated 050623
           </a>
         </div>
       </div>
